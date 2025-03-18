@@ -9,7 +9,7 @@
 
 <script setup>
 import { useRoute } from 'vue-router';
-import NavBar from './NavBar.vue'; 
+import NavBar from '@/layouts/navBar.vue';
 const route = useRoute();
-const isHomePage = route.path === '/' || route.path === ''; 
+const isHomePage = route.path === '/' || route.path === '';
 </script>
